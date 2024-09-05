@@ -1,0 +1,162 @@
+.desktop-1-child {
+    position: absolute;
+    top: 191px;
+    left: 475px;
+    border-radius: var(--br-21xl);
+    background: linear-gradient(270deg, #5c5c5c, #797979 84%, #828282 90.5%, #9c9c9c);
+    width: 724px;
+    height: 374px;
+  }
+  .desktop-1-item {
+    position: absolute;
+    top: 75.5px;
+    left: -0.5px;
+    border-top: 1px solid #8f8f8f;
+    box-sizing: border-box;
+    width: 1441px;
+    height: 1px;
+  }
+  .career-catalyst {
+    position: absolute;
+    top: 27px;
+    left: 160px;
+    display: inline-block;
+    width: 170px;
+    height: 27px;
+  }
+  .home {
+    position: absolute;
+    top: 25px;
+    left: 570px;
+    display: inline-block;
+    width: 53px;
+    height: 26px;
+  }
+  .about {
+    position: absolute;
+    top: 25px;
+    left: 665px;
+    display: inline-block;
+    width: 53px;
+    height: 26px;
+  }
+  .contact-us {
+    position: absolute;
+    top: 25px;
+    left: 760px;
+    display: inline-block;
+    width: 83px;
+    height: 26px;
+  }
+  .your-profile {
+    position: absolute;
+    top: 25px;
+    left: 1065px;
+    display: inline-block;
+    width: 83px;
+    height: 26px;
+  }
+  .desktop-1-inner {
+    position: absolute;
+    top: 783px;
+    left: 0px;
+    background-color: var(--grey);
+    width: 1349px;
+    height: 241px;
+  }
+  .faqs {
+    margin: 0;
+    font-size: 25px;
+  }
+  .blank-line {
+    margin: 0;
+    font-size: 20px;
+  }
+  .what-is-the {
+    margin: 0;
+  }
+  .faqs-what-is-container {
+    position: absolute;
+    top: 807px;
+    left: 116px;
+    display: inline-block;
+    width: 570px;
+    height: 271px;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 860px;
+    left: 950px;
+    border-radius: 25px;
+    background-color: #d9d9d9;
+    width: 249px;
+    height: 60px;
+  }
+  .icons8-instagram-480 {
+    width: 45px;
+    position: relative;
+    height: 39.4px;
+    object-fit: cover;
+  }
+  .icons8-whatsapp-480 {
+    width: 45px;
+    position: relative;
+    height: 45px;
+    object-fit: cover;
+  }
+  .icons8-instagram-480-parent {
+    position: absolute;
+    top: 867px;
+    left: 967px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  .image-1-icon {
+    position: absolute;
+    top: 136px;
+    left: 160px;
+    border-radius: var(--br-21xl);
+    width: 463px;
+    height: 309px;
+    object-fit: cover;
+  }
+  .preparing-minds-to {
+    position: absolute;
+    top: 226px;
+    left: 570px;
+    font-size: 50px;
+    display: inline-block;
+    width: 665px;
+    height: 59px;
+  }
+  .about-us {
+    position: absolute;
+    top: 318px;
+    left: 936px;
+    font-size: 35px;
+    white-space: pre-wrap;
+  }
+  .lorem-ipsum-dolor {
+    position: absolute;
+    top: 394px;
+    left: 685px;
+    display: inline-block;
+    width: 442px;
+    height: 136px;
+  }
+  .desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: #022213;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-white);
+    font-family: var(--font-inria-sans);
+  }
+  
+  
