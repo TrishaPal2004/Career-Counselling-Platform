@@ -1,0 +1,509 @@
+* {
+    background-color: rgb(2, 34, 20);
+    padding: 0;
+    margin: 0; 
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.navbar .nav-item {
+    margin-left: 5vh;
+}
+
+.navbar .btn {
+    background-color: #044228;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1vh;
+    margin-left: 2vh;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #032f1a;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.intro {
+    background-color: rgb(238, 243, 241);
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.text-container {
+    overflow: hidden;
+    position: relative;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+    height: 100%; 
+    margin: 0;
+}
+
+
+
+/* Marquee container */
+.hero-marquee {
+    overflow: hidden;
+    height: 5vh;
+    position: relative;
+}
+
+/* Track that holds the marquee items */
+.hero-marquee-track {
+    
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    animation: marquee 9s linear infinite;
+}
+
+/* Animation for the marquee effect */
+@keyframes marquee {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+/* Styling for marquee items */
+.hero-marquee-item {
+    display: block;
+    padding: 10px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: #c3e84c;
+}
+
+.Sub{
+    font-size: 55px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif ;
+    font-weight: 400;
+    text-align: center;
+    color: #d6fff9;
+    line-height: 44px;
+    height: 100%; 
+    margin: 0;
+}
+
+
+  .card{
+    height: 42px;
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+  .card-text{
+    font-size: medium;
+    color:white;
+  }
+  .card-title
+  {
+    color:white;
+  }
+
+ .btn1{
+    width:34px;
+ }
+
+ .container3{
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+ }
+ .btn2
+ {
+    display: flex;
+    background-color: #044228;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    padding: 20px;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1vh;
+    margin-left: 2vh;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    justify-content: center;
+    text-align: center;
+    
+ }
+ .button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+       /* Centers the button vertically if needed */
+    height: 10vh;           /* Optional: full viewport height for vertical centering */
+    
+    background: var(--clr);
+    margin-bottom: 45px;
+   
+}
+.btn2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #8cd191, #044228, #58c04b);
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    filter: blur(15px);
+    opacity: 0;
+}
+
+.btn2:hover {
+    background-color: #056b39;
+    box-shadow: 0 0 15px rgba(199, 255, 180, 0.5), 0 0 25px rgba(19, 110, 25, 0.5);
+    transform: scale(1.05);
+}
+
+.btn2:hover::before {
+    opacity: 1;
+}
+
+
+.footer {
+    background-color: #0c0909;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c0909;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    max-width: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+   border-radius: 45%;
+  }
+  
+  .footer-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-faq {
+    text-align: left;
+    background-color: #0c0909;
+  }
+  
+  .footer-faq h3 {
+    margin-bottom: 15px;
+    background-color: #0c0909;
+    font-size: 18px;
+  }
+  
+  .footer-faq ul {
+    list-style: none;
+    background-color: #0c0909;
+    padding: 0;
+  }
+  
+  .footer-faq li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-faq a {
+    color: #1e9bff;
+    background-color: #0c0909;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-faq a:hover {
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-faq {
+      margin-top: 20px;
+      background-color: #0c0909;
+    }
+  }
+  
+  .mentors{
+    border: 2px solid white;
+    display:flex;
+    width:100%;
+    height:35vh;
+  }
+
+  .image img{
+    
+    width:43vh;
+    height:33vh;
+    border: 1px solid white;
+    margin: 2%;
+    border-radius: 5px;
+  }
+
+  .container4 {
+    min-width:100vh; 
+    height: 100%; /* Adjust the height as needed */
+    max-height: fit-content;
+    border: 2px solid #393802; /* Box border */
+    border-radius: 10px;
+    padding: 11px;
+    display: flex;
+    font-size: 35px;
+    margin: 3vh;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #023925;
+    background-image: linear-gradient(-45deg ,rgb(217, 217, 217) 1%,rgb(69, 96, 69),rgb(217,217,217),rgb(69,96,69),rgb(218, 218, 218)  );
+  }
+  .container4 .btn1{
+    padding: 5px 5px;
+    width: 10vh;
+    background-color: #05633c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .btn1 {
+    padding: 10px 20px;
+    width: 23vh;
+    background-color: #05633c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background-color: #03311d; /* Darker shade on hover */
+  }
+  .news{
+    color:#023925;
+    background: transparent;
+    font-size: 20px;
+  }
+
+  .text{
+    color: #feffff;
+    background-image: linear-gradient(to right,white,rgb(69, 72, 69));
+    font-size: 35px;
+  }
+
+  .container5{
+    color:white;
+    align-items: center;
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 42vh;
+    font-weight: 800;
+    font-size: 23px;
+    justify-content: center;
+
+  }
+  .container5 .btn1{
+    padding: 10px 20px;
+    width: 23vh;
+    background-color: #05633c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;margin-left: 23vh;
+  }
+  .half-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1200px;
+  }
+  
+  .half-circle {
+    position: relative;
+    width: 300px; /* Adjust width */
+    height: 150px; /* Adjust height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .half-circle-item {
+    position: absolute;
+    width: 10vh; /* Make images square */
+    height: 10vh; /* Make images square */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    object-fit: cover;
+    overflow: hidden;
+    background: transparent;
+  }
+  
+  .half-circle-item img {
+    width: 100%;
+    height: 10vh;
+    object-fit: cover;
+    border-radius: 5px; /* Optional: if you want rounded corners */
+    background: transparent;
+  }
+  
+  /* Position items in a half-circle initially */
+  .half-circle-item:nth-child(1) {
+    transform: rotate(0deg) translateY(50%);
+    transform-origin: bottom center;
+  }
+  
+  .half-circle-item:nth-child(2) {
+    transform: rotate(120deg) translateY(50%);
+    transform-origin: bottom center;
+  }
+  
+  .half-circle-item:nth-child(3) {
+    transform: rotate(240deg) translateY(50%);
+    transform-origin: bottom center;
+  }
+  
+  /* Hover effect */
+  .half-circle-container:hover .half-circle-item {
+    opacity: 1;
+    transform: rotate(0deg) translateY(0);
+  }
+/* Container for the resume section */
+.containerResume {
+  height: 70vh;
+  display: flex;          /* Flex container to align child elements */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  padding: 20px;         /* Add padding around the container */
+  box-sizing: border-box; 
+  background: transparent;/* Include padding and border in the element's total width and height */
+}
+
+/* Content inside the resume container */
+.resume-content {
+  /* Light background for readability */
+  display: flex;             /* Flex container to align child elements */
+  flex-direction: column;    /* Stack children vertically */
+  justify-content: space-between; /* Space out children evenly */
+  height: 65vh;              /* Height relative to viewport height */
+  padding: 20px;            /* Add padding inside the content area */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+  border-radius: 8px;       /* Rounded corners */
+  overflow: auto; 
+  background: transparent;          /* Scroll if content overflows */
+}
+
+/* Text styling within the resume content */
+.textr {
+  height: auto;             /* Allow height to adjust based on content */
+  width: 100%;              /* Full width */
+  color: #333;              /* Dark color for readability */
+  font-size: 16px;          /* Appropriate font size for readability */
+  margin-bottom: 20px; 
+  background: transparent;     /* Space below each text section */
+}
+
+/* Styling for unordered lists within the resume content */
+.resume-content ul {
+  font-weight: 300;         /* Light font weight for list items */
+  margin-left: 20px;        /* Indent list items */
+  line-height: 1.6;  
+  background: transparent;       /* Increase line height for readability */
+}
+
+/* Optional: Add styling for links if present in lists */
+.resume-content ul a {
+  color: #007BFF;           /* Link color */
+  text-decoration: none; 
+  display: flex;   /* Remove underline from links */
+}
+
+.resume-content ul a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+input[type="text"] {
+  
+  color: #fffcfc;                 /* Text color */
+}

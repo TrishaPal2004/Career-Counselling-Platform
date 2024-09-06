@@ -1,0 +1,77 @@
+*
+{
+    background-color: rgb(2, 34, 20);
+    padding: 0;
+    margin: 0; 
+}
+h2, label, input,  select {
+    margin: 0;
+    margin-top: 2vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width:100%;
+}
+
+/* Heading */
+h2 {
+    font-size: 1.6em; /* Reduced font size */
+    color: #f8f9f8;
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduced gap */
+}
+
+/* Form group styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px; /* Reduced gap */
+}
+
+/* Label styles */
+label {
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #555;
+    text-align: left;
+}
+
+/* Input and select styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+/* Button styles */
+button {
+    padding: 8px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 0.9em; /* Slightly smaller font size */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Error message */
+#errorMessage {
+    color: red;
+    margin-top: 10px; /* Reduced margin */
+}
